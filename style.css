@@ -1,0 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#password_generate_place_section {
+    margin: 0 0 30px 0;
+}
+
+#password_goes_here_section input {
+    width:80%;
+    font-size:14px;
+    font-weight: bold;
+}
+
+#create_password_button {
+    width: 10%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    background-color:green;
+    color:white;
+    cursor: pointer;
+}
+
+label, input[type="checkbox"] {
+    cursor: pointer;
+}

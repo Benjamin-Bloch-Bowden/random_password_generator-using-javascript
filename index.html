@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="password_generate_place_section">
+        <form action="" method="get">
+            <h1>Random Password Generator</h1>
+            <label for="number_of_characters">How many random characters do you want in your password?<br><input type="number" id="number_of_characters" placeholder="Write the number of characters password" value=""></label>
+            <br>
+
+            <br><label for="checkbox_small_letters">Small Letters (a-z): <input type="checkbox" id="checkbox_small_letters" checked value="checkbox_small_letters"></label>
+
+            <br><label for="checkbox_big_letters">Big Letters (A-Z): <input type="checkbox" id="checkbox_big_letters" checked value="checkbox_big_letters"></label>
+
+            <br><label for="checkbox_numbers">Numnbers (0-9): <input type="checkbox" id="checkbox_numbers" checked value="checkbox_numbers"></label>
+
+            <br><label for="checkbox_symbols">Symbols (For Example: #, £, !, %, /): <input type="checkbox" id="checkbox_symbols" checked value="checkbox_symbols"></label>
+
+            <br><label for="checkbox_spaces">Spaces (&nbsp;): <input type="checkbox" id="checkbox_spaces" checked value="checkbox_spaces"></label>
+
+            <br><br>
+            <div id="create_password_button">Create Password</div>
+        </form>
+    </section>
+    <section id="password_goes_here_section">
+        <input type="text" id="password_goes_here" value="Password goes here">
+    </section>
+    <script src="./script.js" defer></script>
+</body>
+</html>
